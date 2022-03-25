@@ -9,7 +9,7 @@ const Cosmetics = () => {
             .then(data => setCosmetics(data))
     }, [])
     return (
-        <div>
+        <div className='container'>
             <h1>Cosmetics store</h1>
             {
                 cosmetics.map(cosmetic => <Cosmetic 
